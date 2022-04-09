@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import FacebookLogo from "../assets/icons8-facebook.svg";
 import TwitterLogo from "../assets/icons8-twitter.svg";
 import InstagramLogo from "../assets/icons8-instagram.svg";
+// import Hamburger from "../assets/icons8-menu-rounded-100.png";
 
 export default function Home() {
   return (
@@ -17,6 +18,13 @@ export default function Home() {
 
       <div className={styles.header}>
         <h1>DH.</h1>
+        {/* <Image
+          className={styles.hamburger}
+          src={Hamburger}
+          width={25}
+          height={25}
+          alt="hamburger"
+        /> */}
       </div>
       <div className={styles.main}>
         <div className={styles.ninety}>
